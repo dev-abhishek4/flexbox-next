@@ -1,0 +1,17 @@
+.itemOrder {
+  .item {
+    display: flex;
+  }
+
+  .item1 {
+    order: 1;
+  }
+
+  .item2 {
+    background-color: #00bcd4;
+  }
+
+  .item3 {
+    background-color: #9c27b0;
+  }
+}

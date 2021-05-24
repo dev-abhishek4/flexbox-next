@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  background-color: #00bbff;
+  font-size: 20px;
+  display: block;
+  height: 40px;
+  padding-top: 10px;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  ul {
+    margin: 0;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 15px;
+      font-family: "Dancing Script", cursive;
+    }
+
+    .homeIcon {
+      width: 20px;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #fff;
+}
+
+section {
+  margin-top: 15px;
+  padding-top: 30px;
+}
+
+h3 {
+  margin: 5px 0;
+  color: #b71c1c;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.properties {
+  box-shadow: 2px 2px 2px gray;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 25px;
+  background-color: #ffd54f;
+  border-radius: 4px;
+}
+
+.row {
+  border-bottom: 1px solid white;
+}
+
+.col-sm-6 {
+  padding: 4px;
+}
+
+.item {
+  border: 0.5px solid gray;
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+  margin-left: 8px;
+}
+
+.item1 {
+  background-color: #f44336;
+}
+
+.item2 {
+  background-color: #00bcd4;
+}
+
+.item3 {
+  background-color: #9c27b0;
+}
+
+.con {
+  .one {
+    color: #d20606;
+  }
+}
+
+.ite {
+  .two {
+    color: #d20606;
+  }
+}
+
+.useC {
+  .three {
+    color: #d20606;
+  }
+}
+
+.footer {
+  display: flex;
+  padding: 5px 50px;
+  background-color: #00bbff;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.footerText {
+  padding-right: 10px;
+  font-family: "Dancing Script", cursive;
+}
+
+.footerIcon {
+  height: 16px;
+  width: 16px;
+}

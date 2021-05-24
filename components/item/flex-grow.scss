@@ -1,0 +1,31 @@
+.itemFlexGrow {
+  .item {
+    display: flex;
+  }
+
+  .item1 {
+    flex-grow: 1;
+  }
+
+  .item2 {
+    flex-grow: 2;
+  }
+}
+
+.itemFlexGrowEqual {
+  .item {
+    display: flex;
+  }
+
+  .item1 {
+    flex-grow: 1;
+  }
+
+  .item2 {
+    flex-grow: 1;
+  }
+
+  .item3 {
+    flex-grow: 1;
+  }
+}

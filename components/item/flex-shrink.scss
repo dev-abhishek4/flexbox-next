@@ -1,0 +1,18 @@
+.itemFlexShrink {
+  .item {
+    display: flex;
+  }
+
+  .item1 {
+    width: 150px;
+    flex-shrink: 0;
+  }
+
+  .item2 {
+    width: 150px;
+  }
+
+  .item3 {
+    width: 150px;
+  }
+}

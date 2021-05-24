@@ -1,0 +1,23 @@
+.flex-flow-default {
+    .item {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100px;
+    }
+}
+
+.flex-flow-row-reverse-wrap {
+    .item {
+        display: flex;
+        flex-flow: row-reverse wrap;
+        width: 100px;
+    }
+}
+
+.flex-flow-column-reverse-wrap-reverse {
+    .item {
+        display: flex;
+        flex-flow: column-reverse wrap-reverse;
+        height: 50px;
+    }
+}
